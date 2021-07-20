@@ -1,0 +1,12 @@
+**TESTING STRATEGY**
+
+Para testear la aplicación se propone hacer uso de la librería JUnit para realizar una serie de unit tests.
+Por ejemplo, para los dos métodos implementados se debería comprobar que el funcionamiento es acorde a lo 
+descrito en su descripción con las posibles variantes, esto es, para el método extractProduct es necesario 
+realizar tests tanto con productos importados como no importados.
+
+Respecto al método principal, se pueden realizar tests revisando que el redondeo sea correcto teniendo en cuenta
+los umbrales posibles (es decir, “.025” y “.075”). Por otro lado, es necesario revisar otros aspectos como que 
+el formato impreso corresponde con el propuesto, que la suma de los precios de los productos y los impuestos 
+corresponden con los totales obtenidos y que el precio de cada producto corresponde al inicial más la suma de 
+los impuestos correspondientes.
